@@ -69,7 +69,9 @@ h3 {
     justify-content: center;
 }
 
-.hero-content-left h1, p, button {
+.hero-content-left h1, 
+.hero-content-left p, 
+.hero-content-left button {
     margin: 0 8px 0 8px;
 }
 
@@ -77,12 +79,12 @@ h3 {
     background-color: #3882F6;
     border: none;   
     margin-top: 16px;
-    padding: 4px 4px 10px 4px;
+    padding: 8px;
     color: white;
-    width: 40%;
-    border-radius: 16px;
-    font-size: 24px;
-    font-weight: bold;
+    width: 125px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -194,4 +196,63 @@ blockquote {
     text-align: right;
     font-size: 24px;
     font-weight: 600;
+}
+
+/* call-to-action */
+
+.action-wrapper {
+    /* border: green 2px solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.action-content {
+    /* border: green 2px solid; */
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 6% 0 6% 0;
+}
+
+.action {
+    background-color: #3882F6;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+    border-radius: 8px;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.action-left h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.action-left p {
+    font-weight: 300;
+}
+
+.action-right {
+    display: flex;
+    align-items: center;
+}
+
+.action-right button {
+    background-color: #3882F6;
+    border: none;   
+    padding: 8px;
+    color: white;
+    border: white 2px solid;
+    width: 125px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
 }
