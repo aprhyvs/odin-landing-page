@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+/* navigational bar */
+
 .nav-bar-wrapper {
     background-color: rgb(140, 224, 140);
     display: flex;
@@ -27,3 +29,32 @@ ul {
     gap: 16px;
 }
 
+/* hero section */
+
+.hero-wrapper {
+    background-color: rgb(127, 202, 252);
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content {
+    background-color: rgb(101, 145, 228);
+    width: 60%;
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.hero-content-left {
+    background-color: rgb(49, 120, 201);
+    padding: 16px;
+}
+
+.hero-content-left h1, p, button {
+    margin: 8px;
+}
+
+.hero-content-right {
+    background-color: rgb(31, 81, 138);
+    width: 100%;
+}
