@@ -64,7 +64,7 @@ h3 {
 .hero-content {
     width: 70%;
     margin: 0 auto;
-    padding: 4em 0;
+    padding: 2em 0 4em 0;
     display: flex;
     gap: 1em;
 }
@@ -259,6 +259,7 @@ blockquote {
     font-size: 1rem;
     font-weight: 500;
     text-align: center;
+    cursor: pointer;
 }
 
 /* footer */
@@ -275,6 +276,14 @@ blockquote {
 }
 
 /* media queries */
+
+@media (max-width: 1028px) {
+    .item-wrapper{
+        width: 70%;
+        margin: 0 auto;
+    }    
+}
+
 @media (max-width: 992px) {
     html,body {
         overflow-x: hidden;
@@ -313,6 +322,10 @@ blockquote {
 
     ul {
         justify-content: space-between;
+    }
+
+    .quote-content {
+        width: 80%;
     }
 
     .action-content {
